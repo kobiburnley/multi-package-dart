@@ -20,7 +20,7 @@
     "fix": "npm run lint -- --fix",
     "cd": "standard-version -m \"chore(release): %s [skip ci]\" && git push --follow-tags origin master && npm publish",
     "cd:dry": "npm run cd -- --dry-run",
-    "lock": "git add 'package-lock.json' && (git diff-index --quiet HEAD || git commit -m 'Lock')",
+    "lock": "git add 'package-lock.json' && (git diff-index --quiet HEAD || git commit -m 'Lock [skip ci]')",
     "codecov": "nyc report --reporter=json --reporter=html && codecov -f coverage/*.json"
   },
   "files": [

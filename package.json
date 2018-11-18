@@ -35,6 +35,7 @@
     "@types/chai": "^4.1.2",
     "@types/js-yaml": "^3.11.2",
     "@types/lodash": "^4.14.118",
+    "@types/minimist": "^1.2.0",
     "@types/mkdirp": "^0.5.2",
     "@types/mocha": "^5.0.0",
     "@types/node": "^9.6.4",
@@ -54,12 +55,11 @@
     "tslib": "*"
   },
   "dependencies": {
-    "@types/minimist": "^1.2.0",
     "data-class-copy": "^3.1.1",
+    "js-yaml": "^3.12.0",
     "lodash": "^4.17.11",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
-    "ts-trait": "^4.1.0",
     "tsla-util": "^0.6.0"
   }
 }

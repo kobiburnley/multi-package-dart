@@ -25,7 +25,7 @@ export class GenerateOptions {
     return GenerateOptions.empty.copy({
       env: parseString(params.env) || "local",
       config: parseString(params.config) || "config/multi-package/config.json",
-      pubspecSource: parseString(params.pubspecSource) || "pubspec-template.yaml",
+      pubspecSource: parseString(params.pubspecSource) || "pubspec.yaml",
       pubspecTarget: parseString(params.pubspecTarget) || "pubspec.yaml",
     })
   }
